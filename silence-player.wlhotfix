@@ -1,0 +1,113 @@
+### @license Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+### 
+### @Categories qol, audio, gameplay
+### 
+### @title WL Player Silence Mod
+### @version 1.0.0
+### @author Zed
+### @contact https://github.com/pinyi/WL-silence-player
+### 
+### Tiny Tina's Wonderlands Player Pain Sound Silence Mod
+### Silences player pain sounds when taking status damage, solving the issue of annoying player screams during combat
+### 
+### Features:
+### - Mutes player voice types (Brave, Clever, Gruff, Weird)
+### 
+### 
+
+# VERSION 1.0.0
+
+InjectNewsItem,WL Player Silence Mod: 1.0.0 -- 
+
+#-------------------------------------------#
+
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_F.Sounds_PL_Brave_F,CryoPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_F.Sounds_PL_Brave_F,DarkMagicPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_F.Sounds_PL_Brave_F,ShockPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_F.Sounds_PL_Brave_F,FirePainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_F.Sounds_PL_Brave_F,PoisonPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_F.Sounds_PL_Brave_F,CryoPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_F.Sounds_PL_Brave_F,DarkMagicPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_F.Sounds_PL_Brave_F,ShockPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_F.Sounds_PL_Brave_F,FirePainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_F.Sounds_PL_Brave_F,PoisonPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_M.Sounds_PL_Brave_M,CryoPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_M.Sounds_PL_Brave_M,DarkMagicPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_M.Sounds_PL_Brave_M,ShockPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_M.Sounds_PL_Brave_M,FirePainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_M.Sounds_PL_Brave_M,PoisonPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_M.Sounds_PL_Brave_M,CryoPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_M.Sounds_PL_Brave_M,DarkMagicPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_M.Sounds_PL_Brave_M,ShockPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_M.Sounds_PL_Brave_M,FirePainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Brave_M.Sounds_PL_Brave_M,PoisonPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_F.Sounds_PL_Clever_F,CryoPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_F.Sounds_PL_Clever_F,DarkMagicPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_F.Sounds_PL_Clever_F,ShockPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_F.Sounds_PL_Clever_F,FirePainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_F.Sounds_PL_Clever_F,PoisonPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_F.Sounds_PL_Clever_F,CryoPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_F.Sounds_PL_Clever_F,DarkMagicPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_F.Sounds_PL_Clever_F,ShockPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_F.Sounds_PL_Clever_F,FirePainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_F.Sounds_PL_Clever_F,PoisonPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_M.Sounds_PL_Clever_M,CryoPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_M.Sounds_PL_Clever_M,DarkMagicPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_M.Sounds_PL_Clever_M,ShockPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_M.Sounds_PL_Clever_M,FirePainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_M.Sounds_PL_Clever_M,PoisonPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_M.Sounds_PL_Clever_M,CryoPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_M.Sounds_PL_Clever_M,DarkMagicPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_M.Sounds_PL_Clever_M,ShockPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_M.Sounds_PL_Clever_M,FirePainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Clever_M.Sounds_PL_Clever_M,PoisonPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_F.Sounds_PL_Gruff_F,CryoPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_F.Sounds_PL_Gruff_F,DarkMagicPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_F.Sounds_PL_Gruff_F,ShockPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_F.Sounds_PL_Gruff_F,FirePainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_F.Sounds_PL_Gruff_F,PoisonPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_F.Sounds_PL_Gruff_F,CryoPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_F.Sounds_PL_Gruff_F,DarkMagicPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_F.Sounds_PL_Gruff_F,ShockPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_F.Sounds_PL_Gruff_F,FirePainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_F.Sounds_PL_Gruff_F,PoisonPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_M.Sounds_PL_Gruff_M,CryoPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_M.Sounds_PL_Gruff_M,DarkMagicPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_M.Sounds_PL_Gruff_M,ShockPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_M.Sounds_PL_Gruff_M,FirePainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_M.Sounds_PL_Gruff_M,PoisonPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_M.Sounds_PL_Gruff_M,CryoPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_M.Sounds_PL_Gruff_M,DarkMagicPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_M.Sounds_PL_Gruff_M,ShockPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_M.Sounds_PL_Gruff_M,FirePainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Gruff_M.Sounds_PL_Gruff_M,PoisonPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_F.Sounds_PL_Weird_F,CryoPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_F.Sounds_PL_Weird_F,DarkMagicPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_F.Sounds_PL_Weird_F,ShockPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_F.Sounds_PL_Weird_F,FirePainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_F.Sounds_PL_Weird_F,PoisonPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_F.Sounds_PL_Weird_F,CryoPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_F.Sounds_PL_Weird_F,DarkMagicPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_F.Sounds_PL_Weird_F,ShockPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_F.Sounds_PL_Weird_F,FirePainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_F.Sounds_PL_Weird_F,PoisonPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_M.Sounds_PL_Weird_M,CryoPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_M.Sounds_PL_Weird_M,DarkMagicPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_M.Sounds_PL_Weird_M,ShockPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_M.Sounds_PL_Weird_M,FirePainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_M.Sounds_PL_Weird_M,PoisonPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_M.Sounds_PL_Weird_M,CryoPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_M.Sounds_PL_Weird_M,DarkMagicPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_M.Sounds_PL_Weird_M,ShockPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_M.Sounds_PL_Weird_M,FirePainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Weird_M.Sounds_PL_Weird_M,PoisonPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Grim.Sounds_PL_Grim,CryoPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Grim.Sounds_PL_Grim,DarkMagicPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Grim.Sounds_PL_Grim,ShockPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Grim.Sounds_PL_Grim,FirePainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Grim.Sounds_PL_Grim,PoisonPainLoop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Grim.Sounds_PL_Grim,CryoPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Grim.Sounds_PL_Grim,DarkMagicPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Grim.Sounds_PL_Grim,ShockPainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Grim.Sounds_PL_Grim,FirePainLoopStop,0,,()
+SparkPatchEntry,(1,1,0,),/Game/Dialog/Vocalizations/Sounds_PL_Grim.Sounds_PL_Grim,PoisonPainLoopStop,0,,()
